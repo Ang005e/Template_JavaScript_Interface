@@ -36,4 +36,14 @@ p, label {
 div {
     border: 1px solid black;
     border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+div > p {
+    margin-top: 4vh;
+}
+.big-div {
+    height: 10vh;
+    text-align: center;
+    padding-top: 4vh;
 }
