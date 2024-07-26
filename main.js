@@ -37,7 +37,6 @@ function repop() {
 function proccessText(text) {
     // put the text processing function here
 }
-// template for interacting with user inputs and messing around with it using JS
 /*
 function getText() {
     let re = /^(?)$/;
