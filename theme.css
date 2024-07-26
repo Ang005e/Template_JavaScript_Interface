@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    scrollbar-width: thin;
+}
+main {
+    scrollbar-gutter: stable;
+    overflow-y: auto;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+
+header {
+    height: 10vh;
+    background-color: bisque;
+}
+footer {
+    height: 10vh;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+p, label {
+    font-family: sans-serif;
+}
+#container {
+    display: grid;
+    grid-template-rows: repeat(4, 10vh);
+    grid-template-columns: repeat(4, 25vw);
+}
+div {
+    border: 1px solid black;
+    border-radius: 5px;
+}
