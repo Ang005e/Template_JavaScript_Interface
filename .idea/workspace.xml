@@ -33,6 +33,13 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -50,11 +57,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723345808807</updated>
-      <workItem from="1723345810120" duration="14441000" />
+      <workItem from="1723345810120" duration="14880000" />
     </task>
+    <task id="LOCAL-00001" summary="finalised styling changes">
+      <option name="closed" value="true" />
+      <created>1723363707679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723363707679</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finalised styling changes">
+      <option name="closed" value="true" />
+      <created>1723363727029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723363727029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finalised styling changes">
+      <option name="closed" value="true" />
+      <created>1723363742802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723363742802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalised styling changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalised styling changes" />
   </component>
 </project>
