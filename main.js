@@ -4,7 +4,7 @@ let btnMain = document.querySelector('#btn-main');
 let btnClearAll = document.querySelector('#btn-clear-all');
 let mainDisplay = document.querySelector('.main-display-div > p');
 
-document.addEventListener('DOMContentLoaded', function(event) {
+document.addEventListener('DOMContentLoaded', function() {
     restoreSave();
 })
 
