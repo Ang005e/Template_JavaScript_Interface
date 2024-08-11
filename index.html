@@ -2,32 +2,35 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>RegExp Tests</title>
+        <title>JavaScript Interface</title>
         <script src="main.js" defer="defer"></script>
         <link rel="stylesheet" href="theme.css">
     </head>
     <body>
-        <header>
-            <h1>Testing Ground</h1>
-        </header>
+        <section id="background-wrapper">
 
-        <main>
-            <form>
-                <fieldset>
-                    <label for="txt-input">Enter Words:</label>
-                    <input type="text" id="txt-input">
-                    <button type="button" id="btn-confirm">Output</button>
-                    <button type="button" id="btn-main">Main Output</button>
-                    <button type="button" id="btn-clear-all">Clear All</button>
-                </fieldset>
-            </form>
-            <div id="container"></div>
-            <div class="big-div"></div>
+            <header>
+                <h1>Testing Ground</h1>
+            </header>
+            <main>
+                <form>
+                    <fieldset>
+                        <label for="txt-input">Write Something:</label>
+                        <input type="text" id="txt-input">
+                        <button type="button" id="btn-main">Main Output</button>
+                        <button type="button" id="btn-confirm">Save Output</button>
+                        <button type="button" id="btn-clear-all">Clear All</button>
+                    </fieldset>
+                </form>
+                <div class="main-display-div">
+                    <p></p>
+                </div>
+                <div id="container"></div>
+            </main>
 
-        </main>
-
-        <footer>
-            <p>Copyright Jones, Jones & Jones, 2050</p>
-        </footer>
+            <footer>
+                <p>Copyright Jones, Jones & Jones, 2050</p>
+            </footer>
+        </section>
     </body>
 </html>
